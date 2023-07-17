@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="section">
+      <div class="rectange"></div>
+      <div class="circle"></div>
+      <header>
+        <a href="#"><img src="logo2.png" class="logo" alt="logo" /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="https://smoothiefactory.net">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Help</a></li>
+
+          <br />
+        </ul>
+      </header>
+
+      <div class="content">
+        <div class="textbox">
+            <hr/>
+          <h1>Sip on Something Smooth</h1>
+          <p>
+            Fuel Your Body and Mind with our Power packed
+            <b>SMOOTHIES</b>,design to keep you going all day Long....
+          </p>
+          <p>
+            EXperiance perfect balance of taste and Nutrition in every sip of
+            our Signature <br /><b>SMOOTHIE FACTORY !!</b>
+          </p>
+        </div>
+        <div class="imagebox">
+          <img id="img1" src="pic1.png" alt="" class="smoothy" />
+        </div>
+      </div>
+      <div class="thumbnail">
+        <ul class="thumb">
+          <li>
+            <img
+              src="pic1.png"
+              onclick="imgSlider('pic1.png');changecircle('#7d46ab');thumbbg('#7d46ab') ; changebg('rgb(120 5 180 / 21%)')"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="pic4.png"
+              onclick="imgSlider('pic4.png');changecircle('rgb(126, 243, 100)');thumbbg('rgb(126, 243, 100)') ; changebg('#2dc95769')"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              src="pic3.png"
+              onclick="imgSlider('pic3.png');changecircle('pink') ;thumbbg('pink') ;  changebg('rgb(223 90 130 / 20%)')"
+              alt=""
+            />
+          </li>
+        </ul>
+        <ul class="img1">
+          <li><img src="whatsapp.png" alt="" /></li>
+          <li><img src="social1.png" alt="" /></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
